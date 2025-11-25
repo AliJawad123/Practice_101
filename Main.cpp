@@ -34,7 +34,10 @@ int main(){
 /*  cout<<"Hi"<<endl;*/
     team=o1.create_team(5);
 
-    cout<<team[1]<<endl;
+    for ( int i=0;i<5;i++){
+
+        cout<<team[i]<<endl;
+    }
 
 
 
